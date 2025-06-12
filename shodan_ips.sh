@@ -8,7 +8,7 @@ into a file `results.txt` in the current working directory.
 
 Usage:
   export SHODAN_API_KEY=<your key>
-  python3 shodan_ips.py "MongoDB Server Information -authentication country:CN"
+  python3 shodan_ips.py "MongoDB Server Information -authentication country:XYZ"
 
 Requires:
   pip install shodan
