@@ -2,6 +2,8 @@
 not perfect but useful scripts i wrote for automating recon on target host
 ![screen](https://github.com/user-attachments/assets/187c4231-884b-4eeb-9ffd-bf362c12a5f8)
 
+First you run shodan_ips.py > collect target range > copy output to mongo script
+
 Configurable Targets: Edit the IPS and COMMON_PORTS arrays to specify which hosts and ports to scan.
 
 Fast Port Discovery: Uses nc -z with a 2-second timeout to skip closed ports and stops on the first open port per host.
